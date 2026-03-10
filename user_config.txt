@@ -1,0 +1,35 @@
+# FinSense user config — edit this file only
+# Add/remove tickers one per line under 'tickers:'
+tickers:
+TSLA
+AMZN
+META
+HOOD
+NVDA
+AAPL
+GOOGL
+PEGA
+MSFT
+AMD
+BA
+QCOM
+NFLX
+TWLO
+NOW
+UBER
+TGT
+SLV
+GLD
+
+# Default analysis settings
+benchmark=SPY
+horizon_days=90
+history_years=10
+risk_budget_bps=150
+
+# API keys (paste your keys here — leave blank if not used)
+polygon_api_key=
+finnhub_api_key=
+alpha_vantage_api_key=
+news_api_key=
+fred_api_key=
